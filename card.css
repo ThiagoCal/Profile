@@ -39,17 +39,23 @@ a:link {
   color: black;
 }
 
+ul li{
+  display: inline-block;
+}
+
 .social_medias{
   border: 1px solid rgb(105, 197, 204);
   padding: 5px 10px;
   /* text-align: center; */
   text-decoration: none;
-  display: inline-block;
 }
 
-.social_medias a:hover, a:active {
+.social_medias:hover {
   background-color: rgb(105, 197, 204);
   color: white;
+  background-size: 200% 100%;
+  background-position:right bottom;
+  transition:all 0.5s ease;
 }
 
 .button-page{
@@ -93,6 +99,3 @@ i {
   font-size: 1.5em;
   color: #4c90af;
 }
-/* class="devicon-ruby-plain-wordmark"></i>Ruby</li>
-        <li class="skills-item"><i class="devicon-mysql-plain-wordmark"></i>SQL</li>
-        <li class="skills-item"><i class="devicon-javascript-plain colored" */
