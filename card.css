@@ -1,0 +1,92 @@
+.card-white {
+  background-color: white;
+  padding: 25px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.card-white h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(233, 220, 45);
+}
+
+.card-white h2{
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(42, 118, 128);
+  opacity: 0.6;
+}
+
+.card-white p {
+    font-size: 20px;
+    font-weight: lighter;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+.card-white ul {
+  text-align: center;
+  list-style: none;
+  padding: 0
+}
+
+a:link {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+}
+
+.social_medias{
+  border: 1px solid rgb(105, 197, 204);
+  padding: 5px 10px;
+  /* text-align: center; */
+  text-decoration: none;
+  display: inline-block;
+}
+
+.social_medias a:hover, a:active {
+  background-color: rgb(105, 197, 204);
+  color: white;
+}
+
+.button-page{
+  background-color: #4c90af; /* Green */
+  border: none;
+  color: rgb(8, 30, 43);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.skills  {
+  list-style: none;
+  padding: 0
+}
+
+.skills-item {
+  text-align: center;
+  padding: 5px 5px;
+  /* text-align: center; */
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* .container-skills{
+  width: 300px;
+  margin-left: 270px;
+} */
+
+i {
+  font-size: 1.5em;
+  color: #4c90af;
+}
+/* class="devicon-ruby-plain-wordmark"></i>Ruby</li>
+        <li class="skills-item"><i class="devicon-mysql-plain-wordmark"></i>SQL</li>
+        <li class="skills-item"><i class="devicon-javascript-plain colored" */
